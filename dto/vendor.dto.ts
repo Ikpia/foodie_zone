@@ -7,4 +7,9 @@ export interface createVendorInputs{
     phone: string;
     password: string;
     email: string;
-} 
+}
+
+export interface createVendorLogin {
+    email: string;
+    password: string;
+}
